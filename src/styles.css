@@ -1,6 +1,12 @@
 body{
-    background-color: rgb(192, 212, 229);
+    background-color: rgb(219, 239, 255);
 }
 h1{
+    text-align: center;
+}
+a{
+    color: rgb(220, 114, 132);
+}
+footer{
     text-align: center;
 }
