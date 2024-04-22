@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
 </head>
 
@@ -14,13 +15,13 @@
             <h1>AI Poem Generator</h1>
 
             <main>
-                <form action="">
+                <form id="poemForm">
                     <input type="text" placeholder="Enter a topic!" autofocus required autocomplete="off"
                         class="searchbar" />
                     <input type="submit" class="submitbutton">
                 </form>
                 <div id="poem" class="poem">
-                    Your poem!
+                    Generating your poem...
                 </div>
             </main>
             <footer> <i>Coded by <a href="https://eugenia-zanarini-portfolio.netlify.app/" target="_blank">Eugenia
